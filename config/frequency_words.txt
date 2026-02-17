@@ -29,8 +29,12 @@
 
 [GLOBAL_FILTER]
 # 过滤标题党
-震惊
-
+/震惊|惊呆|竟然|万万没想到|炸了/
+/竟然是|背后的真相|原因竟然是|竟然因为/
+/必看|转疯了|不看后悔|中国人就转发/
+/疑似|曝出|深夜|泪崩|大变样/
+/别再吃了|千万别|医生不告诉你/
+/暴利|逆袭|财务自由|秘籍/
 
 
 # ───────────────────────────────────────────────────────────────
@@ -153,7 +157,15 @@
 #                         企业与品牌
 # ═══════════════════════════════════════════════════════════════
 
-/胖东来|于东来/ => 胖东来
+/\bGPT-5\b|\bSora\b|Claude|Gemini|Llama|OpenAI|Anthropic|DeepSeek|月之暗面|Kimi|智谱AI|MiniMax|EvenUp|Salient|TrueAccord|Synthflow|Cerebras|Groq|端到端模型|RAG架构/i => 核心AI/垂类
+
+/Voice Agent|Vapi|Retell|ElevenLabs|Whisper|Agent Skill|智能体插件|MCP协议|Model Context Protocol|Hume AI|Kyutai|Moshi/i => 语音/Agent
+
+/具身智能|Embodied AI|Figure AI|Optimus|擎天柱|Unitree|宇树|星动纪元|银河通用|智元机器人|Agility Robotics|Boston Dynamics|1X Technologies/i => 具身/机器人
+
+/\bNVDA\b|\bAAPL\b|\bMSFT\b|\bGOOG\b|\bAMZN\b|\bMETA\b|\bTSLA\b|\bTSM\b|\bAVGO\b|\bASML\b|\bAMD\b|\bADBE\b|\bCRM\b|\bQCOM\b|\bMU\b|Tencent|腾讯|Alibaba|阿里巴巴|PDD|拼多多|Meituan|美团|Xiaomi|小米|Baidu|百度|JD|京东|NetEase|网易|SMIC|中芯国际|BYD|比亚迪|CATL|宁德时代|Lenovo|联想|NIO|蔚来|LI|理想|XPEV|小鹏|Biren|摩尔线程/i => 核心标的
+
+/\bCPI\b|\bPPI\b|\bGDP\b|PMI|社融|非农|美联储|降准|加息|A股|美股|中概股|港股|北向资金|恐慌指数|\bVIX\b|信心指数|龙虎榜/i => 宏观/金融
 
 /深度求索|幻方量化|梁文锋|\bDeepSeek\b/ => DeepSeek
 
@@ -167,14 +179,6 @@
 
 /智元|灵犀|稚晖君|彭志辉|AgiBot/ => 智元机器人
 /众擎|EngineAI|赵同阳/ => 众擎机器人
-
-/黑神话|冯骥/ => 黑神话悟空
-
-/影之刃零|梁其伟/ => 影之刃零
-
-/三体|流浪地球|刘慈欣|郭帆/ => 三体/流浪地球
-
-申奥
 
 /京东|刘强东|\bJD\b|\bJingdong\b/ => 京东
 
